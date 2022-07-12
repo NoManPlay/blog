@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>脚手架 on NoManPlay的博客</title>
-        <link>/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
+        <link>https://nomanplay.github.io/blog/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
         <description>Recent content in 脚手架 on NoManPlay的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>前端脚手架</title>
-        <link>/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
+        <link>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
         <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</guid>
+        <guid>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</guid>
         <description>&lt;h1 id=&#34;前端脚手架&#34;&gt;前端脚手架&lt;/h1&gt;
 &lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
 &lt;p&gt;通过脚手架实现用一行命令导入不同模板：&lt;/p&gt;

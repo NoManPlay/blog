@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>脚本 on NoManPlay的博客</title>
-        <link>/tags/%E8%84%9A%E6%9C%AC/</link>
+        <link>https://nomanplay.github.io/blog/tags/%E8%84%9A%E6%9C%AC/</link>
         <description>Recent content in 脚本 on NoManPlay的博客</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/%E8%84%9A%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/tags/%E8%84%9A%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>自动化脚本</title>
-        <link>/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</link>
+        <link>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</link>
         <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
         
-        <guid>/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</guid>
+        <guid>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</guid>
         <description>&lt;h1 id=&#34;自动化脚本&#34;&gt;自动化脚本&lt;/h1&gt;
 &lt;h2 id=&#34;crontab-语法&#34;&gt;crontab 语法&lt;/h2&gt;
 &lt;table&gt;
