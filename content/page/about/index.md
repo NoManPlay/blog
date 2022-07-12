@@ -1,4 +1,5 @@
 ---
+url: /blog/about
 title: 关于
 slug: about
 menu:

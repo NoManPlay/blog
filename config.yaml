@@ -1,5 +1,4 @@
 baseurl: https://nomanplay.github.io/blog
-relativeURLs: true
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5

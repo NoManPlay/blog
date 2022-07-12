@@ -1,4 +1,5 @@
 ---
+url: /blog/search
 title: 搜索
 slug: 搜索
 layout: search
