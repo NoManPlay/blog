@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>脚手架 on NoManPlay的博客</title><link>https://nomanplay.github.io/blog/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</link><description>Recent content in 脚手架 on NoManPlay的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/index.xml" rel="self" type="application/rss+xml"/><item><title>前端脚手架</title><link>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</guid><description>&lt;h1 id="前端脚手架">前端脚手架&lt;/h1>
+&lt;h2 id="目的">目的&lt;/h2>
+&lt;p>通过脚手架实现用一行命令导入不同模板：&lt;/p>
+&lt;ul>
+&lt;li>PC 端 React&lt;/li>
+&lt;li>移动端 Taro&lt;/li>
+&lt;/ul>
+&lt;p>实现的功能：&lt;/p>
+&lt;ul>
+&lt;li>一条简单的命令初始化项目&lt;/li>
+&lt;li>提供友好的交互体验&lt;/li>
+&lt;li>可选择安装不同模板&lt;/li>
+&lt;li>自动安装项目依赖&lt;/li>
+&lt;/ul>
+&lt;h2 id="脚手架开发依赖">脚手架开发依赖&lt;/h2>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.npmjs.com/package/chalk" target="_blank" rel="noopener"
+>chalk&lt;/a>:修改控制台输出内容样式&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.npmjs.com/package/commander" target="_blank" rel="noopener"
+>commander&lt;/a>:命令行工具&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.npmjs.com/package/download-git-repo" target="_blank" rel="noopener"
+>download-git-repo&lt;/a>:用来下载远程模板&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.npmjs.com/package/inquirer" target="_blank" rel="noopener"
+>inquirer&lt;/a>:交互式命令行工具&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.npmjs.com/package/ora" target="_blank" rel="noopener"
+>ora&lt;/a>:显示 loading 动画&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.npmjs.com/package/log-symbols" target="_blank" rel="noopener"
+>log-symbols&lt;/a>:显示出 √ 或 × 等的图标&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a class="link" href="https://www.npmjs.com/package/handlebars" target="_blank" rel="noopener"
+>handlebars.js&lt;/a>:模板引擎&lt;/p>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
