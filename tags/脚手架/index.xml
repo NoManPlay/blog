@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>脚手架 on NoManPlay的博客</title>
+        <link>https://example.com/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
+        <description>Recent content in 脚手架 on NoManPlay的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/%E8%84%9A%E6%89%8B%E6%9E%B6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>前端脚手架</title>
+        <link>https://example.com/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
+        <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</guid>
+        <description>&lt;h1 id=&#34;前端脚手架&#34;&gt;前端脚手架&lt;/h1&gt;
+&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
+&lt;p&gt;通过脚手架实现用一行命令导入不同模板：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PC 端 React&lt;/li&gt;
+&lt;li&gt;移动端 Taro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;实现的功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一条简单的命令初始化项目&lt;/li&gt;
+&lt;li&gt;提供友好的交互体验&lt;/li&gt;
+&lt;li&gt;可选择安装不同模板&lt;/li&gt;
+&lt;li&gt;自动安装项目依赖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;脚手架开发依赖&#34;&gt;脚手架开发依赖&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/chalk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chalk&lt;/a&gt;:修改控制台输出内容样式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/commander&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;commander&lt;/a&gt;:命令行工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/download-git-repo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;download-git-repo&lt;/a&gt;:用来下载远程模板&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/inquirer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;inquirer&lt;/a&gt;:交互式命令行工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/ora&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ora&lt;/a&gt;:显示 loading 动画&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/log-symbols&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;log-symbols&lt;/a&gt;:显示出 √ 或 × 等的图标&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/handlebars&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;handlebars.js&lt;/a&gt;:模板引擎&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
