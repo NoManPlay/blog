@@ -1,4 +1,5 @@
-baseurl: https://nomanplay.github.io
+baseurl: https://nomanplay.github.io/blog
+relativeURLs: true
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
@@ -26,10 +27,9 @@ DefaultContentLanguage: zh-cn
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: true
-
 permalinks:
-  post: blog/p/:slug/
-  page: blog/:slug/
+  post: /p/:slug/
+  page: /:slug/
 
 params:
   mainSections:
