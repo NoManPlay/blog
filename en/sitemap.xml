@@ -2,40 +2,40 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/en/categories/</loc>
+    <loc>https://nomanplay.github.io/blog/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="/categories/"
+                href="https://nomanplay.github.io/blog/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://nomanplay.github.io/blog/en/categories/"
                 />
   </url><url>
-    <loc>/en/</loc>
+    <loc>https://nomanplay.github.io/blog/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="/"
+                href="https://nomanplay.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://nomanplay.github.io/blog/en/"
                 />
   </url><url>
-    <loc>/en/tags/</loc>
+    <loc>https://nomanplay.github.io/blog/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-cn"
-                href="/tags/"
+                href="https://nomanplay.github.io/blog/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://nomanplay.github.io/blog/en/tags/"
                 />
   </url>
 </urlset>
