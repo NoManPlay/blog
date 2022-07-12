@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NoManPlay的博客</title><link>https://nomanplay.github.io/blog/</link><description>Recent content on NoManPlay的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://nomanplay.github.io/blog/archives.html</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/archives.html</guid><description/></item><item><title>R-Tree</title><link>https://nomanplay.github.io/blog/p/r-tree.html</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/r-tree.html</guid><description>&lt;h1 id="r-tree">R-Tree&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>NoManPlay的博客</title><link>https://nomanplay.github.io/blog/</link><description>Recent content on NoManPlay的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 12 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>归档</title><link>https://nomanplay.github.io/blog/archives/</link><pubDate>Tue, 12 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/archives/</guid><description/></item><item><title>R-Tree</title><link>https://nomanplay.github.io/blog/p/r-tree/</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/r-tree/</guid><description>&lt;h1 id="r-tree">R-Tree&lt;/h1>
 &lt;h2 id="认识-r-tree">认识 R-Tree&lt;/h2>
 &lt;p>B-Tree&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>的搜索本质是一维区间的划分过程，每次搜索节点就是一个子区间。&lt;/p>
 &lt;p>R-Tree 是把 B-Tree 的思想拓展到多维空间，采用了 B-Tree 分割空间的思想，是一棵用来存储高维数据的平衡树&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>。&lt;/p>
@@ -45,7 +45,7 @@ alt="mbr"
 &lt;p>平衡树是计算机科学中的一类数据结构，为改进的二叉查找树。一般的二叉查找树的查询复杂度取决于目标结点到树根的距离（即深度），因此当结点的深度普遍较大时，查询的均摊复杂度会上升。为了实现更高效的查询，产生了。在平衡树这里，平衡指所有叶子的深度趋于平衡，更广义的是指在树上所有可能查找的均摊复杂度偏低。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>前端脚手架</title><link>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6.html</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6.html</guid><description>&lt;h1 id="前端脚手架">前端脚手架&lt;/h1>
+&lt;/div></description></item><item><title>前端脚手架</title><link>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</guid><description>&lt;h1 id="前端脚手架">前端脚手架&lt;/h1>
 &lt;h2 id="目的">目的&lt;/h2>
 &lt;p>通过脚手架实现用一行命令导入不同模板：&lt;/p>
 &lt;ul>
@@ -89,7 +89,7 @@ alt="mbr"
 &lt;p>&lt;a class="link" href="https://www.npmjs.com/package/handlebars" target="_blank" rel="noopener"
 >handlebars.js&lt;/a>:模板引擎&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>自动化脚本</title><link>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC.html</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC.html</guid><description>&lt;h1 id="自动化脚本">自动化脚本&lt;/h1>
+&lt;/ul></description></item><item><title>自动化脚本</title><link>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</guid><description>&lt;h1 id="自动化脚本">自动化脚本&lt;/h1>
 &lt;h2 id="crontab-语法">crontab 语法&lt;/h2>
 &lt;table>
 &lt;thead>
@@ -153,4 +153,4 @@ alt="mbr"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">* * * * * path/name.sh &amp;gt; path/name.txt 2&amp;gt;&lt;span class="p">&amp;amp;&lt;/span>&lt;span class="m">1&lt;/span> &lt;span class="p">&amp;amp;&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>将会在规定时间时自动执行对应脚本&lt;/p></description></item><item><title>关于</title><link>https://nomanplay.github.io/blog/about.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/about.html</guid><description>&lt;p>NoManPlay&amp;rsquo;s Blog&lt;/p></description></item><item><title>搜索</title><link>https://nomanplay.github.io/blog/search.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/search.html</guid><description/></item></channel></rss>
+&lt;/div>&lt;p>将会在规定时间时自动执行对应脚本&lt;/p></description></item><item><title>关于</title><link>https://nomanplay.github.io/blog/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/about/</guid><description>&lt;p>NoManPlay&amp;rsquo;s Blog&lt;/p></description></item><item><title>搜索</title><link>https://nomanplay.github.io/blog/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/search/</guid><description/></item></channel></rss>

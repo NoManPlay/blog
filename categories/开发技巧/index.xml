@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开发技巧 on NoManPlay的博客</title><link>https://nomanplay.github.io/blog/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7.html</link><description>Recent content in 开发技巧 on NoManPlay的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>前端脚手架</title><link>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6.html</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6.html</guid><description>&lt;h1 id="前端脚手架">前端脚手架&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开发技巧 on NoManPlay的博客</title><link>https://nomanplay.github.io/blog/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/</link><description>Recent content in 开发技巧 on NoManPlay的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml"/><item><title>前端脚手架</title><link>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</guid><description>&lt;h1 id="前端脚手架">前端脚手架&lt;/h1>
 &lt;h2 id="目的">目的&lt;/h2>
 &lt;p>通过脚手架实现用一行命令导入不同模板：&lt;/p>
 &lt;ul>
@@ -42,7 +42,7 @@
 &lt;p>&lt;a class="link" href="https://www.npmjs.com/package/handlebars" target="_blank" rel="noopener"
 >handlebars.js&lt;/a>:模板引擎&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>自动化脚本</title><link>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC.html</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC.html</guid><description>&lt;h1 id="自动化脚本">自动化脚本&lt;/h1>
+&lt;/ul></description></item><item><title>自动化脚本</title><link>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</guid><description>&lt;h1 id="自动化脚本">自动化脚本&lt;/h1>
 &lt;h2 id="crontab-语法">crontab 语法&lt;/h2>
 &lt;table>
 &lt;thead>
