@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>学习总结 on NoManPlay的博客</title><link>https://nomanplay.github.io/blog/categories/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93.html</link><description>Recent content in 学习总结 on NoManPlay的博客</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://nomanplay.github.io/blog/categories/%E5%AD%A6%E4%B9%A0%E6%80%BB%E7%BB%93/index.xml" rel="self" type="application/rss+xml"/><item><title>R-Tree</title><link>https://nomanplay.github.io/blog/p/r-tree.html</link><pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate><guid>https://nomanplay.github.io/blog/p/r-tree.html</guid><description>&lt;h1 id="r-tree">R-Tree&lt;/h1>
+&lt;h2 id="认识-r-tree">认识 R-Tree&lt;/h2>
+&lt;p>B-Tree&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>的搜索本质是一维区间的划分过程，每次搜索节点就是一个子区间。&lt;/p>
+&lt;p>R-Tree 是把 B-Tree 的思想拓展到多维空间，采用了 B-Tree 分割空间的思想，是一棵用来存储高维数据的平衡树&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>。&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">graph TB
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">level3(level3)--&amp;gt;level2_1(level2_1)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">level3(level3)--&amp;gt;level2_2(level2_2)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">level2_1(level2_1)--&amp;gt;level1_1(level1_1)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">level2_1(level2_1)--&amp;gt;level1_2(level1_2)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">level2_2(level2_2)--&amp;gt;level1_3(level1_3)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">level2_2(level2_2)--&amp;gt;level1_4(level1_3)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>对于 R-Tree 来说，叶子结点所在层级称为 &lt;em>level 1&lt;/em> ,根结点所在层级称为 &lt;em>level h&lt;/em> ,R-tree 满足以下性质：&lt;/p>
+&lt;ol>
+&lt;li>所有非根节点包含 &lt;em>m-M&lt;/em> 个记录索引（条目）。根结点的记录数可以小于 &lt;em>m&lt;/em>。通常 m= $\frac{M}{2}$&lt;/li>
+&lt;li>每一个非叶子结点的分支数和该节点内的条目相同，一个条目对应一个分支，所有叶子节点都位于同一层，因此 R-Tree 为平衡树&lt;/li>
+&lt;li>叶子结点的每一个条目表示一个点&lt;/li>
+&lt;li>非叶子结点的每一个条目存放的数据结构为&lt;code>(I,child-pointer)&lt;/code>。&lt;code>child-pointer&lt;/code>是指向该条目对应孩子节点的指针，&lt;em>I&lt;/em>表示一个 n 维空间的最小矩形边界&lt;code>(minimum bounding rectangle 即 MBR)&lt;/code>，&lt;em>I&lt;/em>覆盖了该条目对应子树中所有的矩形或点&lt;/li>
+&lt;/ol>
+&lt;p>&lt;img src="https://s2.loli.net/2022/01/24/yfkvQDZR5wtSWBC.png"
+loading="lazy"
+alt="mbr"
+>&lt;/p>
+&lt;p>两个黑点保存在一个页子节点的两个条目中，恰好框住这两个条目的矩形表示为 $I=(I_0,I_1)$。其中$I_0=(a,b)$，$I_1=(c,d)$，也就是说最小边界矩形是用各个维度的边表示，那么在三维空间中就是立方体，用 3 条边表示即可。&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;a class="link" href="https://en.wikipedia.org/wiki/B-tree" target="_blank" rel="noopener"
+>https://en.wikipedia.org/wiki/B-tree&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>平衡树是计算机科学中的一类数据结构，为改进的二叉查找树。一般的二叉查找树的查询复杂度取决于目标结点到树根的距离（即深度），因此当结点的深度普遍较大时，查询的均摊复杂度会上升。为了实现更高效的查询，产生了。在平衡树这里，平衡指所有叶子的深度趋于平衡，更广义的是指在树上所有可能查找的均摊复杂度偏低。&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>
