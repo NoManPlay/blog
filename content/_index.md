@@ -1,5 +1,4 @@
 ---
-slug: /home
 menu:
   main:
     name: 主页
