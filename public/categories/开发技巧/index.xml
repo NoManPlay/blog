@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>开发技巧 on NoManPlay的博客</title>
+        <link>https://example.com/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/</link>
+        <description>Recent content in 开发技巧 on NoManPlay的博客</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/categories/%E5%BC%80%E5%8F%91%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>前端脚手架</title>
+        <link>https://example.com/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</link>
+        <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/%E5%89%8D%E7%AB%AF%E8%84%9A%E6%89%8B%E6%9E%B6/</guid>
+        <description>&lt;h1 id=&#34;前端脚手架&#34;&gt;前端脚手架&lt;/h1&gt;
+&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
+&lt;p&gt;通过脚手架实现用一行命令导入不同模板：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;PC 端 React&lt;/li&gt;
+&lt;li&gt;移动端 Taro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;实现的功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;一条简单的命令初始化项目&lt;/li&gt;
+&lt;li&gt;提供友好的交互体验&lt;/li&gt;
+&lt;li&gt;可选择安装不同模板&lt;/li&gt;
+&lt;li&gt;自动安装项目依赖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;脚手架开发依赖&#34;&gt;脚手架开发依赖&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/chalk&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;chalk&lt;/a&gt;:修改控制台输出内容样式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/commander&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;commander&lt;/a&gt;:命令行工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/download-git-repo&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;download-git-repo&lt;/a&gt;:用来下载远程模板&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/inquirer&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;inquirer&lt;/a&gt;:交互式命令行工具&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/ora&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ora&lt;/a&gt;:显示 loading 动画&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/log-symbols&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;log-symbols&lt;/a&gt;:显示出 √ 或 × 等的图标&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.npmjs.com/package/handlebars&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;handlebars.js&lt;/a&gt;:模板引擎&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        </item>
+        <item>
+        <title>自动化脚本</title>
+        <link>https://example.com/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</link>
+        <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://example.com/p/%E8%87%AA%E5%8A%A8%E5%8C%96%E8%84%9A%E6%9C%AC/</guid>
+        <description>&lt;h1 id=&#34;自动化脚本&#34;&gt;自动化脚本&lt;/h1&gt;
+&lt;h2 id=&#34;crontab-语法&#34;&gt;crontab 语法&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;位置&lt;/th&gt;
+&lt;th&gt;含义&lt;/th&gt;
+&lt;th&gt;范围&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;分钟&lt;/td&gt;
+&lt;td&gt;0-59&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;小时&lt;/td&gt;
+&lt;td&gt;0-23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;日期&lt;/td&gt;
+&lt;td&gt;1-31&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;月份&lt;/td&gt;
+&lt;td&gt;1-12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;*&lt;/td&gt;
+&lt;td&gt;星期&lt;/td&gt;
+&lt;td&gt;0-7(0 和 7 都是周日)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;编写-crontab&#34;&gt;编写 crontab&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;crontab -e //编辑crontab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;* * * * *&lt;/code&gt; 自动化执行&lt;/li&gt;
+&lt;li&gt;&lt;code&gt; path/name.sh&lt;/code&gt; 需要执行的脚本&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;&amp;gt; path/name.txt 2&amp;gt;&amp;amp;1 &amp;amp; &lt;/code&gt; 将脚本执行后的结果 输入到&lt;code&gt;name.txt&lt;/code&gt;文件上&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;crontab -l //查看crontab
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;* * * * * path/name.sh &amp;gt; path/name.txt 2&amp;gt;&lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;将会在规定时间时自动执行对应脚本&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
