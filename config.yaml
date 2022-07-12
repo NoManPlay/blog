@@ -28,8 +28,8 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 
 permalinks:
-  post: /blog/p/:slug/
-  page: /blog/:slug/
+  post: /p/:slug/
+  page: /:slug/
 
 params:
   mainSections:
