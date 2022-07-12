@@ -1,4 +1,5 @@
 ---
+slug: /
 menu:
   main:
     name: 主页
