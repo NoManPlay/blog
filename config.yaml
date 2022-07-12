@@ -1,4 +1,4 @@
-baseurl: https://nomanplay.github.io/blog
+baseurl: https://nomanplay.github.io/
 relativeURLs: true
 languageCode: zh-cn
 theme: hugo-theme-stack
