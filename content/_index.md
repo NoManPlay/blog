@@ -1,5 +1,4 @@
 ---
-url: /blog/home
 menu:
   main:
     name: 主页

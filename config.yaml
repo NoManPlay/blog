@@ -1,4 +1,6 @@
 baseurl: https://nomanplay.github.io/blog
+publishDir: public/blog
+uglyurls: true
 languageCode: zh-cn
 theme: hugo-theme-stack
 paginate: 5
@@ -28,6 +30,7 @@ DefaultContentLanguage: zh-cn
 hasCJKLanguage: true
 permalinks:
   post: /p/:slug/
+  page: /:slug/
 
 params:
   mainSections:
