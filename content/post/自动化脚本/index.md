@@ -1,10 +1,11 @@
 ---
 author: NoManPlay
 title: 自动化脚本
-description: 自动化脚本
-date: 2022-07-11
+description: 自动化脚本实现方法
+date: 2021-12-23
 tags: ['脚本']
 categories: ['开发技巧']
+lastMod: 2021-12-24
 ---
 
 # 自动化脚本

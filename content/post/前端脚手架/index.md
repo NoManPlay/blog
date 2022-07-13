@@ -1,10 +1,11 @@
 ---
 author: NoManPlay
 title: 前端脚手架
-description: 前端脚手架
-date: 2022-07-11
+description: 前端脚手架搭建流程
+date: 2022-05-16
 tags: ['脚手架']
 categories: ['开发技巧']
+lastmod: 2022-05-16
 ---
 
 # 前端脚手架

@@ -1,10 +1,11 @@
 ---
 author: NoManPlay
 title: R-Tree
-description: R-Tree
-date: 2022-07-11
+description: R-Tree总结
+date: 2022-01-24
 tags: ['数据结构']
 categories: ['学习总结']
+lastmod: 2022-01-25
 ---
 
 # R-Tree
