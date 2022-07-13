@@ -55,7 +55,7 @@ params:
       src: img/avatar.jpg
 
   article:
-    math: false
+    math: true
     toc: true
     readingTime: true
     license:
@@ -190,15 +190,19 @@ menu:
   social:
     - identifier: github
       name: GitHub
-      url: https://github.com/CaiJimmy/hugo-theme-stack
+      url: https://github.com/NoManPlay
       params:
         icon: brand-github
-
-    - identifier: twitter
-      name: Twitter
-      url: https://twitter.com
+    - identifier: weibo
+      name: Weibo
+      url: https://weibo.com/nomanplay
       params:
-        icon: brand-twitter
+        icon: weibo
+    - identifier: bilibili
+      name: Bilibili
+      url: https://space.bilibili.com/11989161
+      params:
+        icon: bilibili
 
 related:
   includeNewer: true

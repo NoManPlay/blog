@@ -5,7 +5,6 @@ description: R-Tree
 date: 2022-07-11
 tags: ['数据结构']
 categories: ['学习总结']
-math: true
 ---
 
 # R-Tree
